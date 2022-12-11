@@ -1,5 +1,4 @@
 from betterFreqWords import betterFreqWords
-
+from reverseComplement import reverseComplement
 DNAseq =input("Enter DNA Seq:")
-k_mers= int(input("Enter k in k-mer:"))
-print(betterFreqWords(DNAseq,k_mers))
+print(reverseComplement(DNAseq))
